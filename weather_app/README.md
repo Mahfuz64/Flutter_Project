@@ -26,7 +26,3 @@ It demonstrates clean architecture with Riverpod for state management and SQLite
 - **State Management:** Riverpod  
 - **Database:** SQLite (sqflite)  
 - **Utilities:** uuid, intl  
-
----
-
-## 📂 Project Structure
