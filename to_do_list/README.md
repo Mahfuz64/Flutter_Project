@@ -1,4 +1,4 @@
-# 📝 Flutter Riverpod To-Do App with SQLite
+# 📝To-Do App
 
 A simple yet powerful **To-Do List Application** built with **Flutter**, using **Riverpod** for state management and **SQLite** for local persistent storage.
 
