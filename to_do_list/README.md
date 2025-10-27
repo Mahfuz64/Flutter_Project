@@ -1,39 +1,28 @@
-# ☁️ Flutter Weather App
+# 📝 Flutter Riverpod To-Do App with SQLite
 
-A dynamic and user-friendly **Weather Forecast Application** built with **Flutter**.  
-This app integrates the **OpenWeatherMap API** to fetch real-time weather data and uses multiple Flutter services for location, persistence, and utility management.
+A simple yet powerful **To-Do List Application** built with **Flutter**, using **Riverpod** for state management and **SQLite** for local persistent storage.
 
 ---
 
-## 🚀 Project Overview
-The Flutter Weather App provides accurate, real-time weather updates based on the user's current location or any city they search for.  
-It combines modern UI design with essential features like hourly forecasts, city management, and temperature unit customization — all stored locally for a seamless experience.
+## 🚀 Overview
+This app allows users to efficiently manage their daily tasks with features like task creation, editing, completion tracking, and data persistence.  
+It demonstrates clean architecture with Riverpod for state management and SQLite for offline local storage.
 
 ---
 
 ## ✨ Key Features
-- **🌤️ Real-time Weather Display:** Shows current temperature, conditions (clear, cloudy, rain, etc.), and location details.  
-- **🕐 Hourly Forecast:** Displays a scrollable hourly forecast to help users plan their day.  
-- **📍 Location Services:** Automatically detects and updates weather based on the user’s current location using `geolocator` and `geocoding`.  
-- **🏙️ City Search:** Search and view weather information for any city worldwide.  
-- **💾 Persistent Preferences:** Saves user preferences and last-searched data using `shared_preferences`.  
-  - Remembers **last searched city**  
-  - Toggle between **Celsius (°C)** and **Fahrenheit (°F)**  
-  - Manage **favorite cities** for quick access  
-- **🌡️ Detailed Metrics:** Displays additional data such as humidity, wind speed, and pressure.  
-- **🖤 Modern UI:** Features a sleek dark mode (`ThemeData.dark`) for a clean, elegant appearance.
+- **Persistent Storage:** Data saved locally with SQLite.  
+- **State Management:** Powered by Riverpod (`StateNotifierProvider`).  
+- **CRUD Operations:** Create, Read, Update, and Delete tasks.  
+- **Task Details:** Includes title, description, due date, and priority level.  
+- **Status Toggling:** Mark tasks as complete or pending.  
+- **Swipe to Delete:** Quickly remove tasks with a swipe gesture.  
+- **Filtering:** Separate Pending and Completed sections.  
 
 ---
 
 ## 🛠️ Tech Stack
 - **Framework:** Flutter  
-- **API:** OpenWeatherMap  
-- **Location:** geolocator, geocoding  
-- **Persistence:** shared_preferences  
-- **Utilities:** intl  
-## 🛠️ Tech Stack
-- **Framework:** Flutter  
-- **API:** OpenWeatherMap  
-- **Location:** geolocator, geocoding  
-- **Persistence:** shared_preferences  
-- **Utilities:** intl  
+- **State Management:** Riverpod  
+- **Database:** SQLite (sqflite)  
+- **Utilities:** uuid, intl  
