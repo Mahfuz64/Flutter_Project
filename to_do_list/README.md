@@ -25,18 +25,12 @@ It combines modern UI design with essential features like hourly forecasts, city
 
 ---
 
-## 🧩 Technical Components
-
-| Component | Files | Description |
-|------------|-------|-------------|
-| **User Interface (UI)** | `main.dart`, `weather_screen.dart`, `hourly_forecast.dart`, `aditional_info.dart` | Core UI screens and widgets for weather display and user interactions. |
-| **API Integration** | `weather_service.dart` | Handles all requests to the **OpenWeatherMap API** for current weather and forecast data. |
-| **Location Handling** | `location_service.dart` | Manages permissions and retrieves current location using `geolocator` and `geocoding`. |
-| **Persistence** | `preferences_service.dart` | Uses `shared_preferences` for saving settings, favorites, and last-viewed city. |
-| **Utilities** | `weather_utils.dart` | Provides helper functions for temperature conversion and weather condition mapping to icons and colors. |
-
----
-
+## 🛠️ Tech Stack
+- **Framework:** Flutter  
+- **API:** OpenWeatherMap  
+- **Location:** geolocator, geocoding  
+- **Persistence:** shared_preferences  
+- **Utilities:** intl  
 ## 🛠️ Tech Stack
 - **Framework:** Flutter  
 - **API:** OpenWeatherMap  
